@@ -10,11 +10,16 @@ h2{
     font-size: 40px;
     text-align: center;
 }
-
+ 
 p{
     text-align: center;
 }
-h4{
+h4{ 
+    text-align: center;
+}
+h5{
+    font-style: normal;
+    font-size: 10PX;
     text-align: center;
 }
 p{
@@ -62,34 +67,45 @@ section{
     text-align: center;
 }
 .semi-banner {
-    background-image: url("smb.png");
+    background-image: url("images/semi middile baner.png");
     background-repeat: no-repeat;
-    background-position: right;
+    padding:10px;
+    text-align: center;
+    background-size: 100%;
 }
-
+ 
 .img img{
     float: left;
     width: 32%;
-
-    
+ 
+   
 }
 .link-buttone{
     text-decoration: none;
     background-color: #ff0080;
-    padding:10px 20px;
-    border-radius: 10px;
-    margin: 100px 250px;
+    display: inline-block;
     color: white;
     font-weight: bold;
-    width: 400px;
-    height: 300px;
+    padding: 10px 120px;
+    border-radius: 5px;
+}
+.link-buttone:hover{
+    color: skyblue;
+    background-color: tomato;
+    font-weight: bold;
+
 }
 #mm p{
     text-align: center;
 }
 .footer-banner{
-    
-        background-image: url("footer baner.png");
-        background-repeat: no-repeat;
-        background-position: right;
+    background-image: url("images/footer baner.png");
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    background-size: 100%;
     }
+    h6{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
