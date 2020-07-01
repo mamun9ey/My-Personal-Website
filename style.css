@@ -5,6 +5,7 @@ body{
 h1{
     color: #ff0080;
     font-size: 40px;
+    text-align: left;
 }
 h2{
     font-size: 40px;
@@ -14,6 +15,10 @@ h2{
 p{
     text-align: center;
 }
+.mn{
+    text-align: left;
+}
+
 h4{ 
     text-align: center;
 }
@@ -35,8 +40,8 @@ section{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    
+    padding-left: 7%;
 }
 .half-width img{
     width: 100%;
@@ -66,12 +71,12 @@ section{
 #align{
     text-align: center;
 }
-.semi-banner {
-    background-image: url("images/semi middile baner.png");
+.semi-banner{ 
+    background-image: url("smb.png");
     background-repeat: no-repeat;
-    padding:10px;
-    text-align: center;
-    background-size: 100%;
+    padding:20px;
+    background-size:100%;
+    background-position: bottom;
 }
  
 .img img{
@@ -108,4 +113,7 @@ section{
     h6{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
-    
+    #tr p{
+        text-align: center;
+    }
+   
