@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #ff0080;
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    color: gray;
+}
+section{
+    height: 500px;
+    bottom padding: 150px;
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #ff0080;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.link-button:hover{
+    color: skyblue;
+    background-color: tomato;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url("middle banner.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#align{
+    text-align: center;
+}
+.semi-banner {
+    background-image: url("smb.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.img img{
+    float: left;
+    width: 32%;
+
+    
+}
+.link-buttone{
+    text-decoration: none;
+    background-color: #ff0080;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin: 100px 250px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 300px;
+}
+#mm p{
+    text-align: center;
+}
+.footer-banner{
+    
+        background-image: url("footer baner.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
